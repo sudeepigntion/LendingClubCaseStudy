@@ -3,20 +3,7 @@
 ## Table of Contents
 * [General Info](#generalinformation)
 * [Technologies Used](#technologiesused)
-   * Pandas-  Pandas is an open-source library that is made mainly for working with relational or labeled data both easily and intuitively. It provides various data structures and operations for manipulating numerical data and time series. This library is built on top of the NumPy library.
-  * Numpy - NumPy, which stands for Numerical Python, is a library consisting of multidimensional array objects and a collection of routines for processing those arrays. Using NumPy, mathematical and logical operations on arrays can be performed.
-  * PandaSQL - It is a wrapper developed over panda library where we can write sql queries to perform the operations like joins, group aggregate etc, It uses the same syntax of Sqllite
-  * MatplotLib - It is used to visualize the data set with graph, charts etc
-  * Searborn - This library is same as matplotlib but is mainly developed for pandas.
-
 * [Conclusions](#conclusions)
-  * Identified the data, which as null values, mixed values, string data type and issue with date format
-  * Then we cleaned the data using panda library 
-  * After cleaning the data we perform aggregation and grouping using pandasql and panda and derived more relative and useful information especially about the defaulters
-  * Finally we plot the values using matplotlib and seaborn to visualize the values and identify the defaulters and its cases.
-  * We have used Business driven, type driven and data driven metrics to derive values.
-  * We also have done univariate and bivariate analysis to compute and derive new values.
-
 * [Acknowledgements](#acknowledgements)
 
 <!-- You can include any other section that is pertinent to your problem -->
@@ -49,7 +36,7 @@
   plt.show()
   Here we have plot a countplot which demonstrate the grades which has largest number of defaulters, by plotting this we came to know that Grade B, C and D has maximum number of defaulters
 
-  - Next we created a custom function and created a new column and marked it as loan_type. Here we derive how much percentage the bank has provided loan which are defaulters.
+- Next we created a custom function and created a new column and marked it as loan_type. Here we derive how much percentage the bank has provided loan which are defaulters.
   def loan_type(status):
        if status == "Charged Off":
           return 'Defaulter Loan
@@ -63,7 +50,7 @@
   plt.show()
   After plotting this we can clearly see that only 14.17% loans were defaulters.
   
-  - Then we plot boxplot and checked day wise which day of the month has allocated loans there we defaulters and non defaulters.
+- Then we plot boxplot and checked day wise which day of the month has allocated loans there we defaulters and non defaulters.
     plt.figure(figsize=(20,15))
     sns.barplot(x=df.issue_d, y=df.loan_amnt, hue=df.loan_type)
     plt.xticks(rotation=90)
