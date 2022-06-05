@@ -6,13 +6,20 @@
 * [General Info](#general_info)
   This case study is about identifying issues with the dataset, cleaning it and then analyzing it for deriving the new values
 * [Technologies Used](#technology_used)
-   Pandas-  Pandas is an open-source library that is made mainly for working with relational or labeled data both easily and intuitively. It provides various data structures and operations for manipulating numerical data and time series. This library is built on top of the NumPy library.\n
-  Numpy - NumPy, which stands for Numerical Python, is a library consisting of multidimensional array objects and a collection of routines for processing those arrays. Using NumPy, mathematical and logical operations on arrays can be performed.\n
-  PandaSQL - It is a wrapper developed over panda library where we can write sql queries to perform the operations like joins, group aggregate etc, It uses the same syntax of Sqllite\n
-  MatplotLib - It is used to visualize the data set with graph, charts etc\n
-  Searborn - This library is same as matplotlib but is mainly developed for pandas.\n
+   * Pandas-  Pandas is an open-source library that is made mainly for working with relational or labeled data both easily and intuitively. It provides various data structures and operations for manipulating numerical data and time series. This library is built on top of the NumPy library.
+  * Numpy - NumPy, which stands for Numerical Python, is a library consisting of multidimensional array objects and a collection of routines for processing those arrays. Using NumPy, mathematical and logical operations on arrays can be performed.
+  * PandaSQL - It is a wrapper developed over panda library where we can write sql queries to perform the operations like joins, group aggregate etc, It uses the same syntax of Sqllite
+  * MatplotLib - It is used to visualize the data set with graph, charts etc
+  * Searborn - This library is same as matplotlib but is mainly developed for pandas.
 
 * [Conclusions](#conclusions)
+  * Identified the data, which as null values, mixed values, string data type and issue with date format
+  * Then we cleaned the data using panda library 
+  * After cleaning the data we perform aggregation and grouping using pandasql and panda and derived more relative and useful information especially about the defaulters
+  * Finally we plot the values using matplotlib and seaborn to visualize the values and identify the defaulters and its cases.
+  * We have used Business driven, type driven and data driven metrics to derive values.
+  * We also have done univariate and bivariate analysis to compute and derive new values.
+
 * [Acknowledgements](#acknowledgements)
 
 <!-- You can include any other section that is pertinent to your problem -->
