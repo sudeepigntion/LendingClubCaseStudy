@@ -75,7 +75,7 @@
 Give credit here.
 - This project was inspired by Upgrad Tutorials
 - This project was based on Live sessions of Upgrad
-
+- PandaSQL Tutorial taken from Kaggle (https://www.kaggle.com/dataraj/sql-on-pandas-dataframe-using-pandasql) 
 
 ## Contact
 Created by [@sudeepignition] - feel free to contact me!
