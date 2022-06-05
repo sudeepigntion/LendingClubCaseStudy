@@ -3,14 +3,14 @@
 
 
 ## Table of Contents
-* [General Info]
+* [General Info](#general_info)
   This case study is about identifying issues with the dataset, cleaning it and then analyzing it for deriving the new values
-* [Technologies Used]
-   Pandas-  Pandas is an open-source library that is made mainly for working with relational or labeled data both easily and intuitively. It provides various data structures and operations for manipulating numerical data and time series. This library is built on top of the NumPy library.
-  Numpy - NumPy, which stands for Numerical Python, is a library consisting of multidimensional array objects and a collection of routines for processing those arrays. Using NumPy, mathematical and logical operations on arrays can be performed.
-  PandaSQL - It is a wrapper developed over panda library where we can write sql queries to perform the operations like joins, group aggregate etc, It uses the same syntax of Sqllite
-  MatplotLib - It is used to visualize the data set with graph, charts etc
-  Searborn - This library is same as matplotlib but is mainly developed for pandas.
+* [Technologies Used](#technology_used)
+   Pandas-  Pandas is an open-source library that is made mainly for working with relational or labeled data both easily and intuitively. It provides various data structures and operations for manipulating numerical data and time series. This library is built on top of the NumPy library.\n
+  Numpy - NumPy, which stands for Numerical Python, is a library consisting of multidimensional array objects and a collection of routines for processing those arrays. Using NumPy, mathematical and logical operations on arrays can be performed.\n
+  PandaSQL - It is a wrapper developed over panda library where we can write sql queries to perform the operations like joins, group aggregate etc, It uses the same syntax of Sqllite\n
+  MatplotLib - It is used to visualize the data set with graph, charts etc\n
+  Searborn - This library is same as matplotlib but is mainly developed for pandas.\n
 
 * [Conclusions](#conclusions)
 * [Acknowledgements](#acknowledgements)
