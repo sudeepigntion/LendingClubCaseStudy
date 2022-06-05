@@ -1,5 +1,7 @@
 # Lending Club Case Study
 
+[![License](https://img.shields.io/badge/License-BSD_3--Clause-orange.svg)](https://opensource.org/licenses/BSD-3-Clause) 
+
 ## Table of Contents
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
